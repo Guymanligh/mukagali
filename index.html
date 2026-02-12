@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Bootstrap Icons (для презентациялық көркі) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Қосымша стильдер -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+        .section-title {
+            border-bottom: 3px solid #0d6efd;
+            display: inline-block;
+            padding-bottom: 8px;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+        .bio-card {
+            transition: transform 0.2s ease;
+            border: none;
+            border-radius: 1rem;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+        }
+        .bio-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.1);
+        }
+        .quote-block {
+            background-color: #e9ecef;
+            border-left: 6px solid #0d6efd;
+            padding: 1.8rem;
+            border-radius: 0.6rem;
+            font-style: italic;
+            font-size: 1.2rem;
+        }
+        .footer {
+            background-color: #1a1e21;
+            color: #f8f9fa;
+        }
+        .bg-soft-light {
+            background-color: #ffffff;
+        }
+        .bg-soft-gray {
+            background-color: #f1f3f5;
+        }
+        .icon-large {
+            font-size: 2.2rem;
+            color: #0d6efd;
+        }
+    </style>
+    <title>Мұқағали Мақатаев – презентация</title>
+</head>
+<body>
+
+    <!-- БАС ТАҚЫРЫП – слайд тәрізді -->
+    <header class="bg-dark text-white text-center py-5 shadow-lg">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">Мұқағали Мақатаев</h1>
+            <p class="lead fs-3">«Өлең – сөздің патшасы, сөз сарасы»</p>
+            <div class="mt-4 d-flex justify-content-center gap-3">
+                <span class="badge bg-primary p-3 fs-6"><i class="bi bi-calendar3 me-2"></i>1931–1976</span>
+                <span class="badge bg-warning text-dark p-3 fs-6"><i class="bi bi-star-fill me-2"></i>Қазақ поэзиясының классигі</span>
+            </div>
+            <p class="mt-4 text-secondary-emphasis bg-light text-dark d-inline-block px-4 py-2 rounded-pill">
+                <i class="bi bi-person-circle me-2"></i>Марат Әділет. Үй жұмысы.
+            </p>
+        </div>
+    </header>
+
+    <!-- НЕГІЗГІ КОНТЕНТ – презентациялық секциялар -->
+    <main class="my-5">
+
+        <!-- 1-слайд: ӨМІРБАЯН (КІРІСПЕ) -->
+        <div class="container-xxl my-5">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-4 text-center">
+                    <div class="bg-primary bg-opacity-10 p-5 rounded-4">
+                        <i class="bi bi-pen-fill icon-large" style="font-size: 5rem; color: #0d6efd;"></i>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="section-title fw-semibold">Ұлы дала перзенті</h2>
+                    <p class="lead fs-4">Мұқағали Сүлейменұлы Мақатаев – ХХ ғасырдағы қазақ поэзиясының шоқтығы биік тұлғасы. Ақын, жазушы, аудармашы. Жырларымен халық жүрегінен мәңгі орын алды.</p>
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="bi bi-geo-alt-fill text-primary me-2"></i> <strong>Туған жері:</strong> Алматы обл., Нарынқол ауданы, Қарасаз а.</li>
+                                <li class="mb-3"><i class="bi bi-book-fill text-primary me-2"></i> <strong>Білімі:</strong> ҚазМУ, филология</li>
+                                <li class="mb-3"><i class="bi bi-trophy-fill text-warning me-2"></i> <strong>Марапаты:</strong> Қазақ КСР Мемлекеттік сыйлығы (1978, қайтыс болғаннан кейін)</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="bi bi-translate text-primary me-2"></i> <strong>Аудармалары:</strong> Данте, Шекспир, Уитмен</li>
+                                <li class="mb-3"><i class="bi bi-heart-fill text-danger me-2"></i> <strong>Үш бақытым:</strong> Ана тілі, Туған жер, Ақындық</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2-слайд: ӨМІР ЖОЛЫ (ХРОНОЛОГИЯ) – карточкалар -->
+        <div class="bg-soft-gray py-5 mt-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <h2 class="section-title text-center d-inline-block">Өмір жолының белестері</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bio-card h-100 p-3">
+                            <div class="card-body text-center">
+                                <div class="bg-primary bg-gradient text-white rounded-circle d-inline-flex p-3 mb-3">
+                                    <i class="bi bi-calendar-heart fs-2"></i>
+                                </div>
+                                <h5 class="card-title fw-bold">1931 ж.</h5>
+                                <p class="card-text">9 ақпанда Қарасаз ауылында дүниеге келген. Әкесі Сүлеймен, анасы Нағиман.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bio-card h-100 p-3">
+                            <div class="card-body text-center">
+                                <div class="bg-success bg-gradient text-white rounded-circle d-inline-flex p-3 mb-3">
+                                    <i class="bi bi-journal-bookmark-fill fs-2"></i>
+                                </div>
+                                <h5 class="card-title fw-bold">1948 ж.</h5>
+                                <p class="card-text">Тұңғыш өлеңдері жарық көрді. Әдебиетке алғаш қадамы.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bio-card h-100 p-3">
+                            <div class="card-body text-center">
+                                <div class="bg-warning bg-gradient text-dark rounded-circle d-inline-flex p-3 mb-3">
+                                    <i class="bi bi-feather fs-2"></i>
+                                </div>
+                                <h5 class="card-title fw-bold">1966 ж.</h5>
+                                <p class="card-text">«Аққулар ұйықтағанда» жинағы – шығармашылығының шыңы.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bio-card h-100 p-3">
+                            <div class="card-body text-center">
+                                <div class="bg-danger bg-gradient text-white rounded-circle d-inline-flex p-3 mb-3">
+                                    <i class="bi bi-tree-fill fs-2"></i>
+                                </div>
+                                <h5 class="card-title fw-bold">1976 ж.</h5>
+                                <p class="card-text">27 наурызда өмірден озды. Кеңсай зиратында мәңгілік мекен.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3-слайд: ШЫҒАРМАЛАРЫ МЕН АУДАРМАЛАРЫ (ТАБЛИЦА/КАРТА) -->
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="bi bi-motherboard fs-1 text-primary me-3"></i>
+                        <h3 class="fw-bold mb-0">Ақындық мұрасы</h3>
+                    </div>
+                    <div class="list-group">
+                        <div class="list-group-item d-flex align-items-center py-3 border-0 bg-light mb-2 rounded-3">
+                            <i class="bi bi-bookmark-heart-fill text-primary me-3 fs-4"></i>
+                            <span><strong>«Аққулар ұйықтағанда»</strong> (1966)</span>
+                        </div>
+                        <div class="list-group-item d-flex align-items-center py-3 border-0 bg-light mb-2 rounded-3">
+                            <i class="bi bi-bookmark-heart-fill text-primary me-3 fs-4"></i>
+                            <span><strong>«Дариға жүрек»</strong> (1972)</span>
+                        </div>
+                        <div class="list-group-item d-flex align-items-center py-3 border-0 bg-light mb-2 rounded-3">
+                            <i class="bi bi-bookmark-heart-fill text-primary me-3 fs-4"></i>
+                            <span><strong>«Өмір-өзен»</strong> (1975)</span>
+                        </div>
+                        <div class="list-group-item d-flex align-items-center py-3 border-0 bg-light mb-2 rounded-3">
+                            <i class="bi bi-bookmark-heart-fill text-primary me-3 fs-4"></i>
+                            <span><strong>«Қош, махаббат»</strong> (1978)</span>
+                        </div>
+                        <div class="list-group-item d-flex align-items-center py-3 border-0 bg-light rounded-3">
+                            <i class="bi bi-bookmark-heart-fill text-primary me-3 fs-4"></i>
+                            <span><strong>«Райымбек», «Мавр»</strong> поэмалары</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="bi bi-globe fs-1 text-success me-3"></i>
+                        <h3 class="fw-bold mb-0">Әлем әдебиетін аударған</h3>
+                    </div>
+                    <div class="bg-white p-4 rounded-4 shadow-sm">
+                        <p class="fs-5"><i class="bi bi-check2-circle text-success me-2"></i> Данте Алигьери – «Құдіретті комедия»</p>
+                        <p class="fs-5"><i class="bi bi-check2-circle text-success me-2"></i> Уильям Шекспир – сонеттер</p>
+                        <p class="fs-5"><i class="bi bi-check2-circle text-success me-2"></i> Уолт Уитмен – өлеңдер</p>
+                        <p class="fs-5 mt-3 fst-italic">«...Мұқағали әлемдік классиканы қазақша сөйлеткен дарын»</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4-слайд: ҚАНАТТЫ СӨЗДЕРІ (БЛОКЦИТАТ) -->
+        <div class="bg-soft-gray py-5">
+            <div class="container">
+                <div class="text-center mb-4">
+                    <h2 class="section-title d-inline-block">Мұқағалидің қанатты сөздері</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="quote-block bg-white">
+                            <i class="bi bi-quote fs-1 text-primary opacity-50"></i>
+                            <p class="mb-3 fs-3 fw-light lh-base">«Өлең – сөздің патшасы, сөз сарасы»</p>
+                            <footer class="blockquote-footer fs-5">Мұқағали Мақатаев</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 g-4">
+                    <div class="col-md-6">
+                        <div class="bg-white p-4 rounded-4 h-100 border-start border-4 border-primary">
+                            <i class="bi bi-emoji-smile fs-2 text-primary"></i>
+                            <p class="fs-5 mt-2">«Үш бақытым – ана тілім, туған жерім, ақындығым»</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bg-white p-4 rounded-4 h-100 border-start border-4 border-success">
+                            <i class="bi bi-emoji-heart-eyes fs-2 text-success"></i>
+                            <p class="fs-5 mt-2">«Адам болып келемін, адам болып кетемін»</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5-слайд: МҰРАСЫ ЖӘНЕ ЕСКІРТКІШТЕР -->
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="bg-info bg-opacity-10 p-5 text-center rounded-5">
+                        <i class="bi bi-building fs-1 text-info"></i>
+                        <h4 class="mt-3 fw-bold">Мұқағали мұрасы</h4>
+                        <p class="mt-2">Қарасаз ауылындағы әдеби-мемориалдық мұражай</p>
+                        <hr class="w-50 mx-auto">
+                        <span class="badge bg-info fs-6 px-4 py-2 mt-2">Алматыдағы көше, мектептер</span>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="fw-bold mb-4">Ұлы ақын есімі ұлықталады</h3>
+                    <div class="d-flex mb-3">
+                        <div class="me-3"><i class="bi bi-award-fill text-warning fs-2"></i></div>
+                        <div><span class="fw-bold fs-5">1991 ж.</span> – Мұқағали Мақатаев атындағы сыйлық тағайындалды.</div>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <div class="me-3"><i class="bi bi-geo-alt-fill text-danger fs-2"></i></div>
+                        <div><span class="fw-bold fs-5">Алматы, Нұр-Сұлтан, Шымкент</span> – көшелерге есімі берілген.</div>
+                    </div>
+                    <div class="d-flex">
+                        <div class="me-3"><i class="bi bi-film fs-2 text-secondary"></i></div>
+                        <div><span class="fw-bold fs-5">Деректі фильмдер мен кітаптар</span> – ақын өмірі жайлы зерттеулер.</div>
+                    </div>
+                    <p class="mt-4 fs-5">«Мұқағали – мәңгілік жыр» деген халық ұғымы бүгінде айшықты шындыққа айналды.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Қосымша слайд: Қызықты дерек (факт) -->
+        <div class="bg-primary bg-opacity-10 py-4">
+            <div class="container">
+                <div class="alert alert-primary d-flex align-items-center py-3 mb-0 border-0 bg-transparent" role="alert">
+                    <i class="bi bi-lightbulb-fill fs-1 me-4"></i>
+                    <div>
+                        <span class="fw-bold fs-4">Білесіз бе?</span><br>Мұқағали Мақатаевтың «Райымбек» поэмасын ел ішінде жатқа айтатындар көп. Ал ақынның өзі өлеңдерін көбіне түнде, далада жүріп жазған.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER – соңғы слайд секілді -->
+    <footer class="footer text-white py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto text-center">
+                    <i class="bi bi-moon-stars fs-1 text-warning"></i>
+                    <p class="fs-4 mt-3 fst-italic">«Аққулар ұйықтағанда, мен жыр жазамын...»</p>
+                    <div class="border-top border-secondary w-50 mx-auto my-4"></div>
+                    <p class="opacity-75">© 2025 Марат Әділет. Үй жұмысы – Мұқағали Мақатаевқа арналған презентация.</p>
+                    <div class="mt-4">
+                        <span class="badge bg-secondary me-2">#МұқағалиМақатаев</span>
+                        <span class="badge bg-secondary me-2">#ҚазақПоэзиясы</span>
+                        <span class="badge bg-secondary">#ҮшБақытым</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (қажет емес, бірақ кейбір компоненттерге керек) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
